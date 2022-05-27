@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="12dp"
+    android:background="@color/colorPrimaryDark"
+    app:layout_constraintCircleRadius="12dp">
+
+
+        <TextView
+            android:id="@+id/tvTaskText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            tools:text="deed"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/btnDeleteTask"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="16dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_radio_button_unchecked_24"
+            android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
